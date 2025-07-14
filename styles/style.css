@@ -1,0 +1,28 @@
+/* Share style  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.fira-sans-normal {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+:root {
+  --black: #0e0e0e;
+}
+.primary-btn {
+}
+/* Header Style */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: var(--black);
+  font-size: 32px;
+  font-weight: 700;
+}
