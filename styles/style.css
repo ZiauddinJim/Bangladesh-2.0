@@ -13,16 +13,65 @@ body {
 }
 :root {
   --black: #0e0e0e;
+  --grenn: #006a50;
+  --white: #ffffff;
 }
-.primary-btn {
+.btn-primary {
+  background-color: var(--grenn);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
 }
 /* Header Style */
+
+/* Nav Section */
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 44px;
+  margin-top: 24px;
 }
 .logo {
   color: var(--black);
   font-size: 32px;
   font-weight: 700;
+}
+nav button {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--grenn);
+  border-radius: 8px;
+  border: 1px solid var(--grenn);
+  padding: 15px 30px;
+}
+/* Banner Section */
+.banner {
+  background-color: #c6e4d6;
+  height: 560px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 64px;
+  padding: 80px 60px;
+  border-radius: 24px;
+}
+.b-title {
+  color: var(--black);
+  opacity: 50%;
+  font-size: 24px;
+  font-weight: 500;
+}
+.b-sub-title {
+  font-size: 56px;
+  font-weight: 700;
+  width: 622px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.b-btn {
+  font-size: 18px;
+  font-weight: 600;
+  height: 56px;
+  width: 270px;
 }
